@@ -8,7 +8,7 @@ export default class ImageApiService {
     constructor() {
         this.searchQuery = '';
         this.page = 1;
-        this.per_page = 40
+        this.per_page = 40;
     }
 
     async fetchImages() {
